@@ -9,7 +9,9 @@ body {
 nav {
     background-image: linear-gradient(-225deg, #321575 0%, #8D0B93 50%, #FF057C 100%);
     max-width: 100%;
-    height: 5em;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav {
@@ -23,6 +25,21 @@ nav {
     align-items: center;
 }
 
+.seccion-oculta {
+    display: none;
+}
+
+.seccion-oculta ul li{
+    list-style: none;
+}
+
+.seccion-oculta ul li a:hover{
+    color: #FF057C;
+}
+
+.nav .icono i {
+    font-size: 3em;
+}
 
 .nav a{
     color: white;
@@ -39,6 +56,24 @@ nav {
     height: 50px;
 }
 
+nav .oculto {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .nav .secciones{
+        display: none;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .nav .oculto{
+        display: flex;
+        padding-right: 60px;
+    }
+}
+
 
 header {
     width: 100%;
@@ -46,7 +81,11 @@ header {
     padding-top: 9em;
     padding-bottom: 1em;
     background-color: #21D4FD;
-    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    /* background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%); */
+    background-image: url(../img/header.jpg);
+    background-size: 100% 100%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
 }
 
 header h1, header h2 {
@@ -69,9 +108,6 @@ hr {
 .portafolio {
     padding-top: 60px;
     width: 100%;
- /*    display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 .portafolio .contenido{
@@ -135,6 +171,7 @@ hr {
 .cv iframe {
     width: 70%;
     height: 600px;
+    padding-bottom: 3em;
 }
 
 
