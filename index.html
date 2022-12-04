@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Portafolio</title>
     <link rel=" icon" href="img/maletin.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    
+
 </head>
+
 <body>
     <div id="particles-js"></div>
     <nav class="nav">
         <div class="icono">
             <a href="index.html"><i class='bx bx-code-block'></i></a>
         </div>
-        <div class="secciones">           
+        <div class="secciones">
             <a href="#portafolio">Portafolio</a>
             <a href="#skillset">Skillset</a>
             <a href="#cv">CV</a>
             <a href="#contacto">Contacto</a>
         </div>
-        <div class="seccion-oculta">           
+        <div class="seccion-oculta">
             <ul>
                 <li><a href="#portafolio">Portafolio</a></li>
                 <li><a href="#skillset">Skillset</a></li>
@@ -46,21 +48,41 @@
     <section class="portafolio" id="portafolio">
         <h1>Portafolio</h1>
         <div class="contenido">
-            <a href="https://altairjoker.github.io/Mis-Fotos/">
-                <h2>Mi Galeria de fotos</h2>
-                <img class="zoom" src="img/mis fotos.jpg" alt="">
+            <a href="https://api-rick-and-morty-react.vercel.app/miapi">
+                <h2>Api con React</h2>
+                <img class="zoom" src="img/rick.jpg" alt="">
             </a>
             <a href="https://altairjoker.github.io/Sistema-mensajeria">
                 <h2>Desafio Sistema mensajeria</h2>
                 <img src="img/mensajeria.jpg" alt="" class="zoom">
             </a>
-            <a href="https://altairjoker.github.io/Primera-pagina/">
-                <h2>Primera Page</h2>
-                <img src="img/primera-pagina.jpg" alt="" class="zoom">
+            <a href="https://altairjoker.github.io/Snake/">
+                <h2>Game snake</h2>
+                <img src="img/snake.jpg" alt="" class="zoom">
             </a>
-            <a href="https://altairjoker.github.io/Sobre-mi-prueba/">
-                <h2>Sobre mí</h2>
-                <img src="img/Sobre-mi.jpg" alt="" class="zoom">
+            <a href="https://altairjoker.github.io/Pagina-filtrado/">
+                <h2>Filtrar con JS</h2>
+                <img src="img/filtrado.jpg" alt="" class="zoom">
+            </a>
+            <a href="https://altairjoker.github.io/sass/">
+                <h2>Sass Boostrap</h2>
+                <img src="img/sass.jpg" alt="" class="zoom">
+            </a>
+            <a href="https://altairjoker.github.io/Media-queries">
+                <h2>Media Queries</h2>
+                <img src="img/media queries.jpg" alt="" class="zoom">
+            </a>
+            <a href="https://altairjoker.github.io/Mis-Fotos/">
+                <h2>Mis Fotos</h2>
+                <img src="img/mis fotos.jpg" alt="" class="zoom">
+            </a>
+            <a href="https://altairjoker.github.io/Convertidor-de-monedas-API/">
+                <h2>convertidor de monedas API</h2>
+                <img src="img/api monedas.jpg" alt="" class="zoom">
+            </a>
+            <a href="https://altairjoker.github.io/Lista-tareas/">
+                <h2>Lista de tareas JS</h2>
+                <img src="img/tareas.jpg" alt="" class="zoom">
             </a>
         </div>
     </section>
@@ -73,11 +95,18 @@
                 <img src="img/css3.png" alt="">
                 <img src="img/js.png" alt="">
             </div>
-                <div class="row">
+            <div class="row">
                 <img src="img/excel.png" alt="">
                 <img src="img/lightroom.png" alt="">
                 <img src="img/photoshop.png" alt="">
             </div>
+            <div class="row">
+                <img src="img/bootstrap.png" alt="">
+                <img src="img/react.png" alt="">
+                <img src="img/sass2.png" alt="">
+            </div>
+        </div>
+       
         </div>
     </section>
 
@@ -94,22 +123,21 @@
             <i class='bx bxl-instagram bx-lg bx-tada-hover'></i>
         </a>
         <a href="https://www.linkedin.com/in/alexis-jeria-b82379245/">
-            <i class='bx bxl-linkedin-square bx-lg bx-tada-hover' ></i>
+            <i class='bx bxl-linkedin-square bx-lg bx-tada-hover'></i>
         </a>
 
     </footer>
-    <script
-		src="https://code.jquery.com/jquery-3.6.0.js"
-		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-		crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
     <script>
-        $(".oculto").on('click', function() {
+        $(".oculto").on('click', function () {
             $(".seccion-oculta").toggle('slow')
         }
         )
-    </script> 
+    </script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
