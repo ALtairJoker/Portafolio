@@ -183,6 +183,7 @@ hr {
     transition: all 0.3s;
     margin-top: 2rem;
     width: 30%;
+    text-align: center;
 }
 
 .certificado:hover {
@@ -274,6 +275,12 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .certificado {
+        width: 300px;
+    }
+    .button {
+        width: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -293,5 +300,11 @@ footer a {
     .portafolio .contenido {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .certificado {
+        width: 300px;
+    }
+    .button {
+        width: 300px;
     }
 }
