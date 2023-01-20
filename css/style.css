@@ -132,12 +132,22 @@ hr {
     border: 2px solid #FF057C;
 }
 
+.borde{
+    border-radius: 4%;
+}
+
+.enlace {
+    width: 600px;
+    height: 400px;
+}
+
 .zoom {
     transition: transform .7s;
 }
 
 .zoom:hover {
     transform: scale(1.2);
+    border-radius: 4%;
 }
 
 .skillset {
@@ -155,6 +165,10 @@ hr {
 .skillset .logos img {
     width: 300px;
     padding: 2em;
+}
+
+.margen {
+    margin: 2rem;
 }
 
 .certificados {
