@@ -311,6 +311,10 @@ footer a {
         padding-right: 60px;
     }
 
+    .enlace {
+        width: auto;
+    }
+
     .portafolio .contenido {
         display: grid;
         grid-template-columns: 1fr;
@@ -320,5 +324,8 @@ footer a {
     }
     .button {
         width: 300px;
+    }
+    .enlace {
+        width: auto;
     }
 }
