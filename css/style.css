@@ -25,8 +25,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    padding-left: 1em;
-    padding-right: 1em;
     position: fixed;
     width: 100%;
     align-items: center;
@@ -315,7 +313,7 @@ footer a {
 
     .nav .oculto {
         display: flex;
-        margin-right: 60px;
+        margin-right: 40px;
     }
 
     .enlace {
