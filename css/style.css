@@ -315,7 +315,7 @@ footer a {
 
     .nav .oculto {
         display: flex;
-        padding-right: 60px;
+        margin-right: 60px;
     }
 
     .enlace {
