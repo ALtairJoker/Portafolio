@@ -139,11 +139,11 @@ hr {
 }
 
 .zoom {
-    transition: transform .7s;
+    transition: transform .3s;
 }
 
 .zoom:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     border-radius: 4%;
 }
 
