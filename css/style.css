@@ -295,6 +295,9 @@ footer a {
         width: 400px;
         height: 300px;
     }
+    .margen {
+        margin: 0;
+    }
     .certificado {
         width: 300px;
     }
@@ -311,6 +314,9 @@ footer a {
         justify-content: center;
         align-items: center;
     }
+    .margen {
+        margin: 0;
+    }
     .certificado {
         width: 300px;
     }
@@ -325,24 +331,22 @@ footer a {
     .nav .secciones {
         display: none;
     }
-
     .nav {
         justify-content: space-between;
     }
-
     .nav .oculto {
         display: flex;
         margin-right: 40px;
     }
-
     .portafolio .contenido {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-
+    .margen {
+        margin: 0;
+    }
     .certificado {
         width: 200px;
     }
