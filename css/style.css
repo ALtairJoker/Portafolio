@@ -117,9 +117,8 @@ hr {
 }
 
 .portafolio .contenido img {
-    width: 24em;
-    height: 18em;
-    margin: 1em;
+    width: 20em;
+    height: 14em;
     box-shadow: .3em .3em .3em rgba(240, 90, 237, 0.5);
 }
 
@@ -134,7 +133,6 @@ hr {
 }
 
 .enlace {
-    width: 600px;
     height: 400px;
 }
 
