@@ -93,7 +93,6 @@ hr {
 
 .acercaDe{
     margin: 0 15em;
-    
 }
 
 .titulo{
@@ -322,6 +321,9 @@ footer a {
         justify-content: center;
         align-items: center;
     }
+    .acercaDe{
+        margin: 0;
+    }
     .margen {
         margin: 0;
     }
@@ -351,6 +353,9 @@ footer a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .acercaDe{
+        margin: 0;
     }
     .margen {
         margin: 0;
